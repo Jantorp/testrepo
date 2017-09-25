@@ -1,0 +1,15 @@
+body {
+	background: grey;
+	font-family: helvetica;
+	font-size: 14pt;
+	margin: 0 auto;
+	}
+
+h1 {
+	font-size:40pt;
+	color: white;
+}
+p {
+	background: black;
+}
+
