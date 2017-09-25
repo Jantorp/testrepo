@@ -35,28 +35,28 @@
 			
 			<div class="row">
 				<div class="col-md-4">
-					<img src="katt.jpg" alt="Dimma" height="200px">
+					<img class="img-thumbnail" src="katt.jpg" alt="Dimma" height="200px">
 				</div>
 				<div class="col-md-4">
-					<img src="SannaJ.jpg" alt="Dimma" height="200px">
+					<img class="img-thumbnail" src="SannaJ.jpg" alt="Sanna" width="200px">
 				</div>
 				
 				<div class="col-md-4">
 					<form>
-						<br>
-						Namn
-						<br>
-							<input type="text" name="Namn">
-						<br>
-						Mail
-						<br>
-							<input type="text" name="mail">
-						<br>
-						<br>
-							<input type="submit" name="submit">
-
-							<button type="button" class="btn btn-success">Success</button>
-
+						<div class="form-group">
+							<br>
+							<label for="name"> Namn </label>
+							<br>
+								<input type="text" name="Namn">
+							<br>
+							<br>
+							<label for="email"> Mail </label>
+							<br>
+								<input type="text" class="form-control" id="email" name="mail">
+							<br>
+							<br>
+								<button type="submit" class="btn btn-success">Skicka</button>
+						</div>
 					</form>
 				</div>
 			</div>
